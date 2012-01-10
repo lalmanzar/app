@@ -5,9 +5,9 @@ namespace app.web.core
 {
     public class CommandRegistry : IFindCommands
     {
-        readonly IEnumerable<IProcessASingleRequest> all_the_commands;
+        readonly List<IProcessASingleRequest> all_the_commands;
 
-        public CommandRegistry(IEnumerable<IProcessASingleRequest> allTheCommands)
+        public CommandRegistry(List<IProcessASingleRequest> allTheCommands)
         {
             all_the_commands = allTheCommands;
         }
