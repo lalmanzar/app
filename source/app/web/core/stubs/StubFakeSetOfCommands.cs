@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using app.utility;
 using app.web.application.catalogbrowing;
 using app.web.application.catalogbrowing.stubs;
+using app.web.core.extensions;
 
 namespace app.web.core.stubs
 {
@@ -15,7 +16,7 @@ namespace app.web.core.stubs
 
     public IEnumerator<IProcessASingleRequest> GetEnumerator()
     {
-//      yield return new RequestHandler(IncomingRequest.was.made_for<ViewTheMainDepartmentsRequest>(), new ViewA<IEnumerable<Product>>(new GetTheProducts()));
+      yield return new RequestHandler(IncomingRequest.was.made_for<ViewTheMainDepartmentsRequest>(), new ViewA<IEnumerable<Product>>(new GetTheProducts()));
       yield return new RequestHandler(x => true, new ViewA<IEnumerable<Department>>(new GetTheDepartmentsInADepartment()));
       yield return new RequestHandler(x => true, new ViewA<IEnumerable<Department>>(new GetTheMainDepartments())); 
     }

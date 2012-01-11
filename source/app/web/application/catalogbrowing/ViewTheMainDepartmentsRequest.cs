@@ -2,6 +2,6 @@
 {
   public class ViewTheMainDepartmentsRequest
   {
-     
+     public static string Name="";
   }
 }
