@@ -1,4 +1,5 @@
-﻿using System.Web;
+﻿using System.Collections.Generic;
+using System.Web;
 
 namespace app.web.core.stubs
 {
@@ -11,6 +12,7 @@ namespace app.web.core.stubs
 
     class StubRequest : IProvideDetailsToCommands
     {
+       public  IDictionary<string, string> parameters { get; set; }
     }
   }
 }
