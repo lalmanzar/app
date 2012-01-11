@@ -5,18 +5,18 @@ using app.web.core.stubs;
 
 namespace app.web.application.catalogbrowing
 {
-    public class ViewTheDepartmentsInTheMainDepartmentofTheStore : ISupportAStory
+    public class ViewSubDepartmentsInTheMainDepartmentofTheStore : ISupportAStory
     {
         readonly IGetDepartments department_repository;
         readonly IDisplayReports display_engine;
 
-        public ViewTheDepartmentsInTheMainDepartmentofTheStore()
+        public ViewSubDepartmentsInTheMainDepartmentofTheStore()
             : this(Stub.with<StubDepartmentRepository>(),
                    Stub.with<StubDisplayEngine>())
         {
         }
 
-        public ViewTheDepartmentsInTheMainDepartmentofTheStore(IGetDepartments departmentRepository, IDisplayReports displayEngine)
+        public ViewSubDepartmentsInTheMainDepartmentofTheStore(IGetDepartments departmentRepository, IDisplayReports displayEngine)
         {
             department_repository = departmentRepository;
             display_engine = displayEngine;

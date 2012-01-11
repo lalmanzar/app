@@ -8,11 +8,11 @@ using developwithpassion.specifications.rhinomocks;
 
 namespace app.specs
 {
-    [Subject(typeof (ViewTheDepartmentsInTheMainDepartmentofTheStore))]
-    public class ViewTheDepartmentsInTheMainDepartmentofTheStoreSpecs
+    [Subject(typeof (ViewSubDepartmentsInTheMainDepartmentofTheStore))]
+    public class ViewSubDepartmentsInTheMainDepartmentofTheStoreSpecs
     {
         public abstract class concern : Observes<ISupportAStory,
-                                            ViewTheDepartmentsInTheMainDepartmentofTheStore>
+                                            ViewSubDepartmentsInTheMainDepartmentofTheStore>
         {
         }
 
