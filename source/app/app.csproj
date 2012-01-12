@@ -105,6 +105,8 @@
     <Compile Include="web\core\aspnet\WebFormFactory.cs" />
     <Compile Include="web\core\aspnet\WebFormViewFactory.cs" />
     <Compile Include="web\core\CommandRegistry.cs" />
+    <Compile Include="web\core\exceptionwrapper\CanThrowException.cs" />
+    <Compile Include="web\core\exceptionwrapper\IWrappException.cs" />
     <Compile Include="web\core\FrontController.cs" />
     <Compile Include="web\core\ICreateRequests.cs" />
     <Compile Include="web\core\IDisplayReports.cs" />

@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using app.web.core.exceptionwrapper;
 
 namespace app.utility.containers
 {
@@ -17,14 +18,17 @@ namespace app.utility.containers
 
     public ICreateASingleDependency get_factory_that_can_create(Type type)
     {
-      try
-      {
-        return factories.First(x => x.can_create(type));
-      }
-      catch (Exception e)
-      {
-        throw missing_dependency_factory(type);
-      }
+
+        return CanThrowException.when(() => { return factories.First(x => x.can_create(type)); }).create_exception_using(()=> missing_dependency_factory(type));
+        
+//      try
+//      {
+//        
+//      }
+//      catch (Exception e)
+//      {
+//        throw missing_dependency_factory(type);
+//      }
     }
   }
 }

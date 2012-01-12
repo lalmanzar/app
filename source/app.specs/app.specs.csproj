@@ -116,6 +116,8 @@
     <Compile Include="ASPHandlerSpecs.cs" />
     <Compile Include="CommandRegistrySpecs.cs" />
     <Compile Include="ContainerSpecs.cs" />
+    <Compile Include="CanThrowExceptionSpecs.cs" />
+    <Compile Include="WrappExceptionSpecs.cs" />
     <Compile Include="DependencyFactoryRegistrySpecs.cs" />
     <Compile Include="DependencyContainerSpecs.cs" />
     <Compile Include="IncomingRequestSpecs.cs" />
