@@ -6,7 +6,7 @@ namespace app.utility.extensions
     {
          public static string format_using(this string template,params string[] elements)
          {
-             throw new NotImplementedException();
+             return string.Format(template, elements);
          }
     }
 }
