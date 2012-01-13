@@ -28,6 +28,7 @@ namespace app.tasks.startup
       startup_facility.register_factory_for<ICreateRequests, StubRequestFactory>();
       startup_facility.register_factory_for<ICreateViews, WebFormViewFactory>();
       startup_facility.register_factory_for<IFindPathsToTemplates, StubPathRegistry>();
+      startup_facility.register_factory_for<IRegisterRoutes,RegisterRoutes>();
     } 
   }
 }
