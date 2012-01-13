@@ -136,6 +136,7 @@
     <Compile Include="StartupFacilitiesSpecs.cs" />
     <Compile Include="StartupPipelineProviderSpecs.cs" />
     <Compile Include="StartupSpecs.cs" />
+    <Compile Include="StringExtensionsSpecs.cs" />
     <Compile Include="TypeMatcherFactorySpecs.cs" />
     <Compile Include="ViewASpecs.cs" />
     <Compile Include="FrontControllerSpecs.cs" />
