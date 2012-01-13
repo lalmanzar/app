@@ -117,6 +117,7 @@
     <Compile Include="utility\containers\basic\ItemCreationExceptionFactory.cs" />
     <Compile Include="utility\containers\basic\MissingDependencyFactory.cs" />
     <Compile Include="utility\containers\core\IPickTheCtorOnTheType.cs" />
+    <Compile Include="utility\extensions\EnumerableExtensions.cs" />
     <Compile Include="utility\IRunABehaviour.cs" />
     <Compile Include="utility\Stub.cs" />
     <Compile Include="web\application\catalogbrowing\Department.cs" />

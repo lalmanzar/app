@@ -122,6 +122,7 @@
     <Compile Include="DependencyFactoriesProviderSpecs.cs" />
     <Compile Include="DependencyFactoryRegistrySpecs.cs" />
     <Compile Include="DependencyContainerSpecs.cs" />
+    <Compile Include="EnumerableExtensionsSpecs.cs" />
     <Compile Include="GreediestCtorPickerSpecs.cs" />
     <Compile Include="IConfigurePipelineSteps.cs" />
     <Compile Include="IncomingRequestSpecs.cs" />
