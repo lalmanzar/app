@@ -1,6 +1,7 @@
 ﻿ using System.Data;
  using Machine.Specifications;
  using app.specs.utility;
+ using app.utility;
  using app.utility.containers.basic;
  using app.utility.containers.core;
  using developwithpassion.specifications.rhinomocks;
@@ -21,7 +22,7 @@ namespace app.specs
     public class when_fetching_a_dependency : concern
     {
       Establish c = () =>
-      {
+                        {
         the_connection  =ObjectFactory.container.scaffold(spec, fake).an<IDbConnection>();
       };
 

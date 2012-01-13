@@ -35,7 +35,7 @@ namespace app.specs
     }
   }
 
-  class FakeRoutes : IRegisterRoutes
+    class FakeRoutes : IRegisterRoutes
   {
     IEnumerator IEnumerable.GetEnumerator()
     {

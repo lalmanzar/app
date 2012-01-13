@@ -120,7 +120,13 @@
     <Compile Include="utility\containers\basic\ItemCreationExceptionFactory.cs" />
     <Compile Include="utility\containers\basic\MissingDependencyFactory.cs" />
     <Compile Include="utility\containers\core\IPickTheCtorOnTheType.cs" />
+    <Compile Include="utility\ICanLog.cs" />
+    <Compile Include="utility\IConfigureLog.cs" />
+    <Compile Include="utility\IGenerateLogMessages.cs" />
     <Compile Include="utility\IRunABehaviour.cs" />
+    <Compile Include="utility\Log.cs" />
+    <Compile Include="utility\MyLog4Net.cs" />
+    <Compile Include="utility\LoggerCreator.cs" />
     <Compile Include="utility\Stub.cs" />
     <Compile Include="web\application\catalogbrowing\Department.cs" />
     <Compile Include="web\application\catalogbrowing\IFindInformationInTheStore.cs" />

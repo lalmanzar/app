@@ -1,4 +1,6 @@
-﻿namespace app.tasks.startup
+﻿using app.utility;
+
+namespace app.tasks.startup
 {
   public class Startup
   {
@@ -8,6 +10,7 @@
         .followed_by<ConfigureTheFrontController>()
         .followed_by<ConfigureQueries>()
         .end_with<ConfiguringRoutes>();
+        MyLog4Net.setup().use_console().Info("asdasd");
     }
   }
 }

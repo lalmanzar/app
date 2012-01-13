@@ -123,10 +123,13 @@
     <Compile Include="DependencyFactoryRegistrySpecs.cs" />
     <Compile Include="DependencyContainerSpecs.cs" />
     <Compile Include="GreediestCtorPickerSpecs.cs" />
+    <Compile Include="IConfigureLogSpecs.cs" />
     <Compile Include="IConfigurePipelineSteps.cs" />
     <Compile Include="IncomingRequestSpecs.cs" />
     <Compile Include="DependencyFactorySpecs.cs" />
     <Compile Include="LazyContainerSpecs.cs" />
+    <Compile Include="ICanLogSpecs.cs" />
+    <Compile Include="MyLog4NetSpecs.cs" />
     <Compile Include="RouteTableSpecs.cs" />
     <Compile Include="RoutesSpecs.cs" />
     <Compile Include="StartupPipelineBuilderSpecs.cs" />
