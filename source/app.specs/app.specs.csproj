@@ -127,6 +127,7 @@
     <Compile Include="IConfigurePipelineSteps.cs" />
     <Compile Include="IncomingRequestSpecs.cs" />
     <Compile Include="DependencyFactorySpecs.cs" />
+    <Compile Include="IRegisterRoutesSpecs.cs" />
     <Compile Include="LazyContainerSpecs.cs" />
     <Compile Include="RoutesSpecs.cs" />
     <Compile Include="StartupPipelineBuilderSpecs.cs" />
